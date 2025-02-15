@@ -24,21 +24,6 @@
             margin: 0;
         }
 
-        nav ul {
-            padding: 0;
-            list-style: none;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-        }
-
         section {
             padding: 20px;
             margin: 0 20px;
@@ -46,6 +31,17 @@
 
         h2 {
             color: #333;
+        }
+
+        /* Style for experience and education items */
+      .item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+
+      .item h3 {
+            margin-top: 0;
         }
 
         footer {
@@ -63,71 +59,101 @@
 
     <header>
         <h1>Manuel Cabrera Justo</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <p>Junior GenAl Developer</p>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Junior GenAl Developer with a strong background in biology, data analysis, and laboratory research. Proven ability to develop AI-powered solutions, analyze complex datasets, and generate meaningful insights. Eager to contribute to innovative projects and continue learning in the ever-evolving field of Generative AI.</p>
+    <section id="professional-experience">
+        <h2>Professional Experience</h2>
+        <div class="item">
+            <h3>Junior GenAl Developer at Pampling (Discam Textiles S.L)</h3>
+            <p>November 2021 - March 2024</p>
+            <ul>
+                <li>Developed an AI-powered T-shirt design generator fine-tuning Stable Diffusion and Controlnet along with leveraging Pytorch for model training. [cite: 1]</li>
+                <li>Managed and analyzed customer databases using SQL and Python, extracting insights to optimize marketing strategies. [cite: 2]</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3>Laboratory Technician at Microal S.L.</h3>
+            <p>February 2021 - May 2021</p>
+            <ul>
+                <li>Processed and analyzed biological datasets from food and water, using chromatographic techniques (GC/ECD, GC/FID, HPLC) for quantitative analysis of fatty acids, sugars, and hydrocarbons. [cite: 3]</li>
+                <li>Performed statistical analysis (ANOVA, regression) and created data visualizations (box plots, histograms, scatter plots) to identify patterns and trends in extracted data. [cite: 4]</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3>Laboratory Associate at Weisse lab, School of Sciences, University of Edinburgh</h3>
+            <p>January 2020 - May 2020</p>
+            <ul>
+                <li>Conducted whole-genome sequencing and phylogenomic analysis to investigate bacterial antimicrobial resistance and hospital transmission dynamics. [cite: 5]</li>
+                <li>Applied K-means clustering to classify bacterial isolates based on genomic and antimicrobial resistance profiles, and used Decision Trees to identify key factors influencing resistance and transmission. [cite: 6]</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3>Laboratory Analyst at Andalusian Center for Developmental Biology (CABD)</h3>
+            <p>September 2018 - August 2019</p>
+            <ul>
+                <li>Engineered a mutant bacterial strain using cloning techniques combined with computational analysis. [cite: 7]</li>
+                <li>Carried out gene expression studies (Q-PCR) to compare both wild-type and mutant strains. [cite: 8]</li>
+                <li>Developed robust Python data pipelines (using Pandas, NumPy, Matplotlib, Seaborn, and Jupyter Notebooks) and leveraged Git for version control, enabling efficient dataset handling, reproducibility, and clear visualizations for data-driven decision-making. [cite: 9]</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3>Research Intern at Departament of Physiology (University of Seville)</h3>
+            <p>September 2015 - June 2017</p>
+            <ul>
+                <li>Academic research for the Bachelor's Thesis titled "The Role of Dopamine in Autism" using biomedical databases like PubMed. [cite: 10]</li>
+                <li>Support work in my supervisor's research conducting molecular biology techniques such as DNA isolation, PCR, and ELISA assay. [cite: 11]</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
+    <section id="academic-background">
+        <h2>Academic Background</h2>
+        <div class="item">
+            <h3>MSc. Environmental, Industrial and Food Biotechnology</h3>
+            <p>University of Pablo de Olavide (Seville), 2017-2019</p>
+        </div>
+        <div class="item">
+            <h3>Bachelor's Degree of Science in Biology</h3>
+            <p>University of Seville, 2010-2015</p>
+        </div>
+    </section>
 
-        <h3>Junior GenAl Developer at Pampling (Discam Textiles S.L)</h3>
-        <p>November 2021 - March 2024</p>
+    <section id="courses">
+        <h2>Courses</h2>
         <ul>
-            <li>Developed an AI-powered T-shirt design generator fine-tuning Stable Diffusion and Controlnet along with leveraging Pytorch for model training.</li>
-            <li>Managed and analyzed customer databases using SQL and Python, extracting insights to optimize marketing strategies.</li>
-        </ul>
-
-        <h3>Laboratory Technician at Microal S.L.</h3>
-        <p>February 2021 - May 2021</p>
-        <ul>
-            <li>Processed and analyzed biological datasets from food and water, using chromatographic techniques (GC/ECD, GC/FID, HPLC) for quantitative analysis of fatty acids, sugars, and hydrocarbons.</li>
-            <li>Performed statistical analysis (ANOVA, regression) and created data visualizations (box plots, histograms, scatter plots) to identify patterns and trends in extracted data.</li>
-        </ul>
-
-        <h3>Laboratory Associate at Weisse lab, School of Sciences, University of Edinburgh</h3>
-        <p>January 2020 - May 2020</p>
-        <ul>
-            <li>Conducted whole-genome sequencing and phylogenomic analysis to investigate bacterial antimicrobial resistance and hospital transmission dynamics.</li>
-            <li>Applied K-means clustering to classify bacterial isolates based on genomic and antimicrobial resistance profiles, and used Decision Trees to identify key factors influencing resistance and transmission.</li>
-        </ul>
-
-        <h3>Laboratory Analyst at Andalusian Center for Developmental Biology (CABD)</h3>
-        <p>September 2018 - August 2019</p>
-        <ul>
-            <li>Engineered a mutant bacterial strain using cloning techniques combined with computational analysis.</li>
-            <li>Carried out gene expression studies (Q-PCR) to compare both wild-type and mutant strains.</li>
-            <li>Developed robust Python data pipelines (using Pandas, NumPy, Matplotlib, Seaborn, and Jupyter Notebooks) and leveraged Git for version control, enabling efficient dataset handling, reproducibility, and clear visualizations for data-driven decision-making.</li>
-        </ul>
-
-        <h3>Research Intern at Departament of Physiology (University of Seville)</h3>
-        <p>September 2015 - June 2017</p>
-        <ul>
-            <li>Academic research for the Bachelor's Thesis titled "The Role of Dopamine in Autism" using biomedical databases like PubMed.</li>
-            <li>Support work in my supervisor's research conducting molecular biology techniques such as DNA isolation, PCR, and ELISA assay.</li>
+            <li>Generative AI for Everyone, DL.ai, 2024</li>
+            <li>AI Python for Beginners, DL.ai, 2024</li>
+            <li>ChatGPT Prompt Engineering for Developers, DL.ai, 2023</li>
+            <li>Generative AI with LLMs, DL.ai, 2023</li>
+            <li>Introduction to Version Control with Git and GitHub, University of the Andes, 2023</li>
+            <li>Machine Learning in Production, DL.ai, 2022</li>
+            <li>Data Science and Data Analyst, INESEM Business School, 2021</li>
+            <li>Specialist in Agrifood Laboratories, Professional Association of Biologists of Andalusia (COBA), 2020</li>
         </ul>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Coming soon...</p>
-        </section>
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>English - Professional (B2)</li>
+            <li>Spanish - Native</li>
+        </ul>
+    </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: manucabreraj7@gmail.com</p>
-        <p>Phone: +34 666633364</p>
-        <p>GitHub: <a href="https://github.com/Mcabreraj7" target="_blank">https://github.com/Mcabreraj7</a></p>
+    <section id="technical-skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Python: Numpy, Pandas, Matplotlib, HuggingFace transformers, Biopython</li>
+            <li>MongoDB, SQL</li>
+            <li>Perl</li>
+            <li>Git</li>
+            <li>Linux</li>
+            <li>BioEdit</li>
+            <li>Serial Cloner</li>
+            <li>BLAST</li>
+            <li>Uniprot</li>
+        </ul>
     </section>
 
     <footer>
